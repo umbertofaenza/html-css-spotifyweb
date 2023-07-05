@@ -121,10 +121,12 @@ FOOTER
 /* footer center */
 
 .footer-content__center {
+  width: calc(100% - 600px);
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .footer-content__center-top {
@@ -142,6 +144,34 @@ FOOTER
 
 .footer-content__center-top .fa-circle-play {
   font-size: 2rem;
+}
+
+.footer-content__center-bottom {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.song-time,
+.song-duration {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.song-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #5a5a5a;
+  border-radius: 10px;
+  flex-shrink: 1;
+}
+
+.song-bar__full {
+  width: 30%;
+  height: 100%;
+  background-color: #dddddd;
+  border-radius: 10px;
 }
 
 /*****************
