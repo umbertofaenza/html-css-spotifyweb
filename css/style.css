@@ -49,7 +49,11 @@ ul {
   background-color: #141922;
 }
 
-/* footer */
+/* 
+
+FOOTER 
+
+*/
 #footer {
   height: 100px;
   background-color: #282828;
@@ -67,6 +71,8 @@ ul {
 .footer-content__right {
   width: calc(300px - 15px);
 }
+
+/* footer left */
 
 .now-playing {
   display: flex;
@@ -110,6 +116,32 @@ ul {
   padding: 0 10px;
   gap: 10px;
   cursor: pointer;
+}
+
+/* footer center */
+
+.footer-content__center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content__center-top {
+  width: 200px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content__center-top i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.footer-content__center-top .fa-circle-play {
+  font-size: 2rem;
 }
 
 /*****************
