@@ -63,6 +63,55 @@ ul {
   margin: 0px 15px;
 }
 
+.footer-content__left,
+.footer-content__right {
+  width: calc(300px - 15px);
+}
+
+.now-playing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.now-playing__song {
+  display: flex;
+  gap: 15px;
+}
+
+.now-playing__song img {
+  display: block;
+  width: 50px;
+  cursor: pointer;
+}
+
+.now-playing__song .song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.now-playing__song .song-info .artist-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.now-playing__song .song-info .song-name {
+  color: #6f6f6f;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.now-playing__icons {
+  display: flex;
+  font-size: 1.1rem;
+  color: #6f6f6f;
+  padding: 0 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
 /*****************
 /**  RESPONSIVE  *
 /****************/
