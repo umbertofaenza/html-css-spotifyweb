@@ -1,0 +1,34 @@
+/*****************
+/**   RESET      *
+/****************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+/*****************
+/**  SECTIONS    *
+/****************/
+
+/*****************
+/**  RESPONSIVE  *
+/****************/
