@@ -38,7 +38,7 @@ ul {
 
 /* sidebar */
 .sidebar {
-  width: 300px;
+  width: 200px;
   height: 100%;
   background-color: #000000;
 }
@@ -69,7 +69,7 @@ FOOTER
 
 .footer-content__left,
 .footer-content__right {
-  width: calc(300px - 15px);
+  width: calc(200px - 15px);
 }
 
 /* footer left */
@@ -82,12 +82,12 @@ FOOTER
 
 .now-playing__song {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .now-playing__song img {
   display: block;
-  width: 50px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ FOOTER
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .now-playing__song .song-info .artist-name {
@@ -111,7 +111,7 @@ FOOTER
 
 .now-playing__icons {
   display: flex;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #6f6f6f;
   padding: 0 10px;
   gap: 10px;
@@ -121,7 +121,7 @@ FOOTER
 /* footer center */
 
 .footer-content__center {
-  width: calc(100% - 600px);
+  width: calc(100% - 400px);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ FOOTER
 }
 
 .footer-content__center-top {
-  width: 200px;
+  width: 150px;
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -138,16 +138,16 @@ FOOTER
 }
 
 .footer-content__center-top i {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
 .footer-content__center-top .fa-circle-play {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .footer-content__center-bottom {
-  width: 50%;
+  width: 70%;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -155,13 +155,13 @@ FOOTER
 
 .song-time,
 .song-duration {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
 }
 
 .song-bar {
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #5a5a5a;
   border-radius: 10px;
   flex-shrink: 1;
