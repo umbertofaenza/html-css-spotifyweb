@@ -125,6 +125,7 @@ MAIN CONTENT
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  padding-bottom: 30px;
 }
 
 .col {
