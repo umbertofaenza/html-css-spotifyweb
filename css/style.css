@@ -195,10 +195,20 @@ SIDEBAR
   cursor: pointer;
 }
 
+.user-nav div:hover span,
+.user-nav div:hover i {
+  color: #dddddd;
+}
+
 .user-nav span {
   font-size: 0.8rem;
   color: #6f6f6f;
   font-weight: bold;
+}
+
+.user-nav i {
+  color: #6f6f6f;
+  font-size: 1.2rem;
 }
 
 .home {
