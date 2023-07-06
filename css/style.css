@@ -103,6 +103,10 @@ MAIN CONTENT
   cursor: pointer;
 }
 
+.content-nav ul li:hover {
+  color: #dddddd;
+}
+
 .content-nav ul li:first-child {
   display: flex;
   flex-direction: column;
