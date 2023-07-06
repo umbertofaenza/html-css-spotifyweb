@@ -47,20 +47,16 @@ ul {
 SIDEBAR 
 
 */
-.sidebar {
+.nav-lg {
   width: 200px;
   height: 100%;
   background-color: #000000;
-}
-
-.nav-lg {
-  height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 /* logo */
-.sidebar .logo {
+.nav-lg .logo {
   height: 100px;
   padding: 0 15px;
   display: flex;
@@ -68,7 +64,7 @@ SIDEBAR
   cursor: pointer;
 }
 
-.sidebar .logo img {
+.nav-lg .logo img {
   width: 150px;
 }
 
