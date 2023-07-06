@@ -55,6 +55,15 @@ MAIN CONTENT
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - 200px);
+}
+
+.content-header + * {
+  margin-top: 100px;
 }
 
 .upgrade__button {
