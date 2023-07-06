@@ -53,17 +53,20 @@ SIDEBAR
   background-color: #000000;
 }
 
+/* logo */
 .sidebar .logo {
   height: 100px;
   padding: 0 15px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .sidebar .logo img {
   width: 150px;
 }
 
+/* user nav */
 .user-nav > div {
   padding: 5px 15px;
   cursor: pointer;
@@ -77,6 +80,43 @@ SIDEBAR
 
 .home {
   box-shadow: 3px 0px 0 0 inset #adff2f;
+}
+
+/* playlists */
+.playlists {
+  padding: 15px;
+  color: #6f6f6f;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.playlists i,
+.playlists span,
+.playlists li {
+  cursor: pointer;
+}
+
+.playlists h5 {
+  font-size: 0.85rem;
+  color: #dddddd;
+}
+
+.playlists__create {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.playlists__create span {
+  font-size: 0.8rem;
+}
+
+.playlists__list li {
+  font-size: 0.8rem;
+  padding: 5px 0;
 }
 
 /* 
