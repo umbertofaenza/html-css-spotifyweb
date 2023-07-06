@@ -46,6 +46,7 @@ MAIN CONTENT
   background-color: #141922;
 }
 
+/* header */
 .content-header {
   height: 100px;
   background-color: rgba(8, 11, 18, 0.8);
@@ -62,6 +63,40 @@ MAIN CONTENT
   font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* content nav */
+.content-nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #6f6f6f;
+  text-transform: uppercase;
+}
+
+.content-nav ul {
+  display: flex;
+}
+
+.content-nav ul li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.content-nav ul li:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-bottom {
+  width: 40%;
+  height: 2px;
+  background-color: #adff2f;
+  text-align: center;
+  margin-top: 5px;
 }
 
 /*
