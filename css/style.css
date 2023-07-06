@@ -53,6 +53,12 @@ SIDEBAR
   background-color: #000000;
 }
 
+.nav-lg {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 /* logo */
 .sidebar .logo {
   height: 100px;
@@ -117,6 +123,31 @@ SIDEBAR
 .playlists__list li {
   font-size: 0.8rem;
   padding: 5px 0;
+}
+
+/* sidebar bottom */
+.nav-lg__bottom {
+  padding: 15px;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.install-app {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  margin-bottom: 10px;
+
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #6f6f6f;
+}
+
+.account-profile {
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* 
