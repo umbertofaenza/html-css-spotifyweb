@@ -146,6 +146,10 @@ MAIN CONTENT
   padding: 5px 0;
 }
 
+.row.popular-artists img {
+  border-radius: 50%;
+}
+
 /*
  
 SIDEBAR 
