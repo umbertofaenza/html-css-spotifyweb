@@ -102,6 +102,39 @@ MAIN CONTENT
   margin-top: 5px;
 }
 
+/* albums */
+.albums-container {
+  padding: 15px;
+}
+
+.row h3 {
+  margin-bottom: 25px;
+}
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card-album {
+  width: calc(100% / 6 - 15px);
+}
+
+.card-album__cover {
+  margin-bottom: 10px;
+}
+
+.card-album__info {
+  text-align: center;
+}
+
+.card-album__info h5 {
+  color: #6f6f6f;
+  font-size: 0.7rem;
+  padding: 5px 0;
+}
+
 /*
  
 SIDEBAR 
