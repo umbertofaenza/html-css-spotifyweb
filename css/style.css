@@ -348,3 +348,13 @@ FOOTER
 /*****************
 /**  RESPONSIVE  *
 /****************/
+
+@media screen and (max-width: 576px) {
+  .nav-lg {
+    display: none;
+  }
+
+  .nav-xs {
+    display: flex;
+  }
+}
