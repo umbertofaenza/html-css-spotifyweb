@@ -53,6 +53,8 @@ SIDEBAR
   background-color: #000000;
   display: flex;
   flex-direction: column;
+
+  display: none;
 }
 
 /* logo */
@@ -146,6 +148,34 @@ SIDEBAR
   font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* nav xs */
+.nav-xs {
+  width: 60px;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-xs img {
+  width: 35px;
+}
+
+.nav-xs__top,
+.nav-xs__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.nav-xs__top i {
+  font-size: 1.5rem;
+  color: #6f6f6f;
 }
 
 /* 
