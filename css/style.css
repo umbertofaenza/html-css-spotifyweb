@@ -47,7 +47,6 @@ ul {
 SIDEBAR 
 
 */
-
 .sidebar {
   width: 200px;
   height: 100%;
@@ -66,7 +65,14 @@ SIDEBAR
 }
 
 .user-nav > div {
-  padding: 0 15px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.user-nav span {
+  font-size: 0.8rem;
+  color: #6f6f6f;
+  font-weight: bold;
 }
 
 .home {
