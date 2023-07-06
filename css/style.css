@@ -257,6 +257,11 @@ SIDEBAR
   padding: 5px 0;
 }
 
+.playlists .playlists__create:hover,
+.playlists li:hover {
+  color: #dddddd;
+}
+
 /* sidebar bottom */
 .nav-lg__bottom {
   padding: 15px;
