@@ -498,4 +498,8 @@ FOOTER
   .col {
     width: calc(100% / 2 - 15px);
   }
+
+  .content-header {
+    width: calc(100% - 60px);
+  }
 }
