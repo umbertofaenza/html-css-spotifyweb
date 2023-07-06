@@ -357,4 +357,18 @@ FOOTER
   .nav-xs {
     display: flex;
   }
+
+  .footer-content > div {
+    width: calc(100% / 3 - 20px);
+  }
+
+  .now-playing__icons,
+  .footer-content__right__icons,
+  .footer-content__right__volume {
+    flex-wrap: wrap;
+  }
+
+  .footer-content__center-bottom {
+    width: 100%;
+  }
 }
