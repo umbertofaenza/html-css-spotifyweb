@@ -396,6 +396,10 @@ FOOTER
   cursor: pointer;
 }
 
+.now-playing__icons i:hover {
+  color: #dddddd;
+}
+
 /* footer center */
 
 .footer-content__center {
