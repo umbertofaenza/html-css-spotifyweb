@@ -457,6 +457,10 @@ FOOTER
   cursor: pointer;
 }
 
+.song-bar:hover .song-bar__full {
+  background-color: #adff2f;
+}
+
 /* footer right */
 
 .footer-content__right {
@@ -496,6 +500,10 @@ FOOTER
   background-color: #dddddd;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.volume-bar:hover .volume-full {
+  background-color: #adff2f;
 }
 
 /*****************
