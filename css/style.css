@@ -382,6 +382,11 @@ FOOTER
   cursor: pointer;
 }
 
+.now-playing__song .song-info .song-name:hover {
+  color: #dddddd;
+  text-decoration: underline;
+}
+
 .now-playing__icons {
   display: flex;
   font-size: 0.9rem;
