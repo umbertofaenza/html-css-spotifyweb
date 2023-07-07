@@ -428,6 +428,10 @@ FOOTER
   font-size: 1.6rem;
 }
 
+.fa-circle-play:hover {
+  transform: scale(1.1);
+}
+
 .footer-content__center-bottom {
   width: 70%;
   display: flex;
