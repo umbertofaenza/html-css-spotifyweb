@@ -141,6 +141,10 @@ MAIN CONTENT
   width: calc(100% / 6 - 15px);
 }
 
+.card-album > * {
+  cursor: pointer;
+}
+
 .card-album__cover {
   margin-bottom: 10px;
 }
