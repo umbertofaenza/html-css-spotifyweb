@@ -147,6 +147,24 @@ MAIN CONTENT
 
 .card-album__cover {
   margin-bottom: 10px;
+  position: relative;
+}
+
+.card-album__cover img:hover {
+  filter: brightness(50%);
+}
+
+.card-album__cover:hover .fa-circle-play.fa-3x {
+  display: block;
+}
+
+.card-album__cover .fa-circle-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+
+  display: none;
 }
 
 .card-album__info {
@@ -433,7 +451,7 @@ FOOTER
   font-size: 1.6rem;
 }
 
-.fa-circle-play:hover {
+.footer-content__center-top .fa-circle-play:hover {
   transform: scale(1.1);
 }
 
