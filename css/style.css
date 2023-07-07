@@ -282,6 +282,10 @@ SIDEBAR
   cursor: pointer;
 }
 
+.install-app:hover > * {
+  color: #dddddd;
+}
+
 .account-profile {
   font-size: 0.9rem;
   font-weight: bold;
